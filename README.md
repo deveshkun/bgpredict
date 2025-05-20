@@ -46,4 +46,15 @@ The combined feature vector is used to train a high-performance **Artificial Neu
 ---
 
 ## 🗂️ Folder Structure
+Fingerprint-BloodGroup-Classification/
+│
+├── dataset_blood_group/ # Fingerprint images categorized by blood group
+├── features/ # Extracted handcrafted + CNN features
+├── models/ # Saved models (final_model.h5, CNN model, etc.)
+├── csv_outputs/ # Combined feature vectors as CSV
+├── flask_app/ # Flask web app for prediction
+├── utils/ # Helper scripts for feature extraction, preprocessing
+├── notebooks/ # Jupyter notebooks for EDA & experiments
+├── main_training_script.py # Final training pipeline
+└── README.md # Project overview and usage
 
